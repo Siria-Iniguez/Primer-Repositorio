@@ -1,0 +1,54 @@
+Script started on Thu Feb  3 17:42:48 2022
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ cd Primer-Repositorio/
+bash-3.2$ o[Kpython3 0_procesos.py
+fin
+hola 0
+hola 0
+hola 1
+hola 2
+hola 1
+hola 3
+hola 4
+hola 2
+hola 3
+hola 4
+bash-3.2$ gi[K[K
+bash-3.2$ git add 0_procesos.pt[Ky
+bash-3.2$ git commit -m "programa_procesos"
+[main 960fdfc] programa_procesos
+ Committer: Siria Catherine Iñiguez Brito <cati@Air-de-Siria.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 22 insertions(+)
+ create mode 100644 0_procesos.py
+bash-3.2$ git push
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 605 bytes | 605.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Siria-Iniguez/Primer-Repositorio.git
+   6704c7d..960fdfc  main -> main
+bash-3.2$ giy[Kt add multiprocessing.txt
+fatal: pathspec 'multiprocessing.txt' did not match any files
+bash-3.2$ git add multiprocessing.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmultiprocessing.txt
+fatal: pathspec 'multiprocessing.txt' did not match any files
+bash-3.2$ git add multiprocessing.txt
+fatal: pathspec 'multiprocessing.txt' did not match any files
+bash-3.2$ exit
+
+Script done on Thu Feb  3 18:06:51 2022
