@@ -1,0 +1,51 @@
+Script started on Thu Feb  3 18:40:07 2022
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ python3 2_procesos.py 
+fin
+hola soy ana_1,4769, True, vuelta 0
+hola soy ana_1,4769, True, vuelta 1
+hola soy ana_0,4768, True, vuelta 0
+hola soy ana_0,4768, True, vuelta 1
+hola soy ana_0,4768, True, vuelta 2
+hola soy ana_0,4768, True, vuelta 3
+hola soy ana_0,4768, True, vuelta 4
+hola soy ana_1,4769, True, vuelta 2
+hola soy ana_1,4769, True, vuelta 3
+hola soy ana_1,4769, True, vuelta 4
+adios
+hola soy ana_2,4770, True, vuelta 0
+hola soy ana_2,4770, True, vuelta 1
+hola soy ana_2,4770, True, vuelta 2
+hola soy ana_2,4770, True, vuelta 3
+hola soy ana_2,4770, True, vuelta 4
+bash-3.2$ git add 2_procesos.py 
+bash-3.2$ git commit -m "ejeu[K[Kecucion proce[K[K[K[K[K[K_ [Kproceso2"
+[main c9b703e] ejecucion_proceso2
+ Committer: Siria Catherine Iñiguez Brito <cati@Air-de-Siria.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 31 insertions(+)
+ create mode 100644 2_procesos.py
+bash-3.2$ git push
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 661 bytes | 661.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:Siria-Iniguez/Primer-Repositorio.git
+   4148ff6..c9b703e  main -> main
+bash-3.2$ git add 
